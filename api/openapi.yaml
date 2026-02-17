@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Staking API
+  version: 1.0.0
+
+paths:
+  /stake:
+    post:
+      summary: Stake tokens
+      responses:
+        '200':
+          description: Stake successful
